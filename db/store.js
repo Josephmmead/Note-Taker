@@ -31,7 +31,8 @@ class Store {
 ​
   addNote(note) {
     // set up variables with our notes data here
-​
+     
+​     var newNote = req.body;
 ​
     // Error handle here, if we have no title or text added throw a new error explaining what is wrong
     if (!title || !text) {

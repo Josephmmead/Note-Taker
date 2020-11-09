@@ -4,12 +4,12 @@ const router = require("express").Router();
 
 module.exports = function(app) {
 router.get("/notes", (req, res) => {
-    // here you will render the notes HTML page
+    //render the notes HTML page
     res.sendFile(path.join(__dirname, "../public/notes.html"));
 });
 
-router.get("/", (req, res) => {
-    // this is the default route where you will render index.html
+router.get("*", (req, res) => {
+    // render the HTML page index.html
    res.sendFile(path.join(__dirname, "../public/index.html"));
 
 });
