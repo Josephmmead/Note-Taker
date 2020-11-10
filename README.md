@@ -2,6 +2,17 @@
 
 Note Taker is a application that allows you to create, read, and delete notes. 
 
+## Motivation
+
+With this application yout can keep and notes for future use. Whether you use this as a tasks list, study notes, or simply reminders for yourself later. With this app you are able to create new notes and delete them as needed. 
+
+## Tech used
+
+This application uses the following:
+
+Javascript
+HTML & CSS
+Express
 ## Installation
 
 Use the package manager npm to install all required dependencies.
